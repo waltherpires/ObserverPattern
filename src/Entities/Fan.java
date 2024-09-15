@@ -7,6 +7,7 @@ public class Fan implements Observer{
         this.name = name;
     }
 
+    // método que será utilizado dentro no notifyObservers
     @Override
     public void update(String seriesName, int seasonNumber) {
         System.out.println("Olá "
